@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="product-images">
+            <img id="main-image" src="images/Rectangle 4.png" alt="Main Product Image">
+            <div class="thumbnails">
+                <img src="images/Rectangle 6.png" alt="Thumbnail 1">
+                <img src="images/Rectangle 5.png" alt="Thumbnail 2">
+                <img src="images/Rectangle 7.png" alt="Thumbnail 3">
+                <img src="images/Rectangle 8.png" alt="Thumbnail 4">
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="title">
+                <p>Marmeto</p>
+                <h1>Embrace Sideboard</h1>
+            </div>
+            <div class="price-section">
+                <div class="price">
+                   <p class="actual-price">$12999.00</p>
+                   <p class="compare-price"><del>$19999.00</del></p>
+                </div>
+                <p class="discount">35% Off</p>
+            </div>
+            <div class="color-selector">
+                <label>Choose a Color</label>
+                <div class="colors">
+                    <input type="checkbox" id="yellow" name="color" value="Yellow" class="color yellow">
+                    <label for="yellow" class="color-label yellow"></label>
+                    <input type="checkbox" id="green" name="color" value="Green" class="color green">
+                    <label for="green" class="color-label green"></label>
+                    <input type="checkbox" id="blue" name="color" value="Blue" class="color blue">
+                    <label for="blue" class="color-label blue"></label>
+                    <input type="checkbox" id="pink" name="color" value="Pink" class="color pink">
+                    <label for="pink" class="color-label pink"></label>
+                </div>
+            </div>
+           <div class="size-selector">
+                <label class="bio">Choose a Size</label>
+                <div class="size">
+                    <div>
+                        <input type="radio"  name="tnc"  value="Small" >
+                        <label for="Small" class="size-label Small">Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="tnc" value="Medium" >
+                        <label for="Medium" class="size-label Medium">Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio"  name="tnc"  value="Large" >
+                        <label for="Large" class="size-label Large">Large</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="tnc" value="Extra Large" >
+                        <label for="Extra Large" class="size-label   Extra Large">Extra Large</label>
+                    </div>    
+                    <div>
+                        <input type="radio"  name="tnc"  value="XXL" >
+                        <label for="XXL" class="size-label XXL">XXL</label>
+                    </div>
+               </div>
+            </div>
+           <div class="action-section">
+                <div class="quantity-selector">
+                    <span class="decrease">-</span>
+                    <span class="quantity">1</span>
+                    <span class="increase">+</span>
+                </div>
+                <div class="cart-section">
+                    <button class="add-to-cart">
+                        <img src="images/Vector.png" alt="Vector">
+                        Add To Cart
+                    </button>
+                    <div class="cart-message">Embrace Sideboard with Color Yellow and Size Small added to cart</div>
+                </div>
+            </div>
+           <div class="description">
+                <p>
+                   The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.
+                </p>
+           </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
